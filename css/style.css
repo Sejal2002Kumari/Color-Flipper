@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+.header{
+    color: rgb(56, 146, 161);
+    letter-spacing: 3px;
+    height: 56px;
+    box-shadow: 0 7px 13px -4px rgb(141, 136, 136);
+    background-color: white;
+}
+
+.LeftContentOfHeader{
+    float: left;
+    width: 62.3%;
+display: inline-block;
+}
+h4{
+
+height: 10px;
+}
+.RightContentOfHeader{
+     float: right;
+     width: 37%;
+     font-weight: lighter;
+}
+.RightContentOfHeader ul{
+
+}
+.RightContentOfHeader ul li {
+  display: inline-block;
+}
+.RightContentOfHeader ul li a{
+  text-decoration: none;
+  color: rgba(2, 12, 14, 0.842);
+}
+.RightContentOfHeader ul li a:hover{
+   color: rgba(21, 132, 155, 0.842);
+}
+.clear{
+    clear: both;
+}
+.containerPart1{
+    height: 260px;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerPart1 div{
+    background-color: black;
+    color: white;
+    width: 52%;
+    height: 90px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.containerPart2{
+    height: 292px;
+    text-align: center;
+
+}
+
+button{
+    padding:0px 14px;
+    border: 2px solid black;
+    border-radius: 8px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+
+        -webkit-transition: background-color 500ms ease-in-out;
+        -ms-transition: background-color 500ms ease-in-out;
+     transition: background-color 500ms ease-in-out;
+}
